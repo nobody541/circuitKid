@@ -1,0 +1,70 @@
+:root {
+  /* Primary palette */
+  --color-primary: #4A90D9;
+  --color-secondary: #FF6B6B;
+  --color-accent: #FFD700;
+  --color-success: #4CAF50;
+  --color-warning: #FF9800;
+  --color-danger: #F44336;
+
+  /* Lesson theme colors */
+  --lesson-1-color: #FFD700;
+  --lesson-2-color: #FF6B6B;
+  --lesson-3-color: #4CAF50;
+  --lesson-4-color: #9C27B0;
+  --lesson-5-color: #4A90D9;
+
+  /* Backgrounds */
+  --bg-primary: #F0F4FF;
+  --bg-card: #FFFFFF;
+  --bg-dark: #2C3E50;
+
+  /* Text */
+  --text-primary: #2C3E50;
+  --text-secondary: #7F8C8D;
+  --text-light: #FFFFFF;
+
+  /* Typography */
+  --font-family: 'Nunito', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-size-xxl: clamp(2rem, 5vw, 3rem);
+  --font-size-xl: clamp(1.5rem, 4vw, 2.5rem);
+  --font-size-lg: clamp(1.2rem, 3vw, 1.8rem);
+  --font-size-md: clamp(1rem, 2.5vw, 1.3rem);
+  --font-size-sm: clamp(0.85rem, 2vw, 1rem);
+  --font-size-xs: clamp(0.7rem, 1.5vw, 0.85rem);
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-xxl: 3rem;
+
+  /* Borders */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-round: 50%;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.1);
+  --shadow-card: 0 4px 12px rgba(0,0,0,0.1);
+  --shadow-button: 0 4px 0 rgba(0,0,0,0.2);
+  --shadow-lg: 0 8px 24px rgba(0,0,0,0.15);
+  --shadow-glow: 0 0 20px rgba(74, 144, 217, 0.4);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 300ms ease;
+  --transition-slow: 500ms ease;
+
+  /* Z-index layers */
+  --z-base: 1;
+  --z-toolbar: 10;
+  --z-modal-backdrop: 100;
+  --z-modal: 110;
+  --z-mascot: 50;
+  --z-tooltip: 120;
+}
